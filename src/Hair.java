@@ -5,12 +5,11 @@ import java.io.IOException;
 
 public class Hair {
     public static void main(String[] args) {
-        int sum = 0, hairLength = 0;
-        String daysStr = "", numberOfDays;
+        int sum = 0;
+        String daysStr = "", numberOfDays = "";
         String[] daysStrArray;
         int[] daysArray;
         try(BufferedReader input = new BufferedReader(new FileReader("input.txt"))) {
-            String line;
             numberOfDays = input.readLine();
             daysStr = input.readLine();
         } catch (IOException ex) {
@@ -18,6 +17,12 @@ public class Hair {
         }
 
         daysStrArray = daysStr.split(" ");
+
+        // Это условие только для того, чтобы numberOfDays не чувствовала себя бесполезной
+        if (daysStrArray.length != Integer.parseInt(numberOfDays)) {
+            System.out.println("Кто-то здесь врёт");
+        }
+
         daysArray = new int[daysStrArray.length];
         for (int i = 0; i < daysStrArray.length; i++) {
             daysArray[i] = Integer.parseInt(daysStrArray[i]);

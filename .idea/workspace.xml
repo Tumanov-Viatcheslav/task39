@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e998aa6b-e075-487c-8be1-a7faca000d8b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Hair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task39.iml" afterDir="false" />
+    <list default="true" id="e998aa6b-e075-487c-8be1-a7faca000d8b" name="Changes" comment="-Added task39">
+      <change beforePath="$PROJECT_DIR$/src/Hair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Hair.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +41,19 @@
       <option name="presentableId" value="Default" />
       <updated>1725996401811</updated>
     </task>
+    <task id="LOCAL-00001" summary="-Added task39">
+      <option name="closed" value="true" />
+      <created>1726000000854</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726000000854</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-Added task39" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Added task39" />
   </component>
 </project>
